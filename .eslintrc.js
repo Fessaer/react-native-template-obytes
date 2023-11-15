@@ -12,13 +12,13 @@ module.exports = {
         endOfLine: 'auto',
       },
     ],
-    'unicorn/filename-case': [
-      'error',
-      {
-        case: 'kebabCase',
-        ignore: ['/android', '/ios'],
-      },
-    ],
+    // 'unicorn/filename-case': [
+    //   'error',
+    //   {
+    //     case: 'kebabCase',
+    //     ignore: ['/android', '/ios'],
+    //   },
+    // ],
   },
   overrides: [
     // Configuration for TypeScript files

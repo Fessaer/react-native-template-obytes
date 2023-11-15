@@ -4,7 +4,7 @@ import { BottomSheetModalProvider } from '@gorhom/bottom-sheet';
 import * as SplashScreen from 'expo-splash-screen';
 import React from 'react';
 import { StyleSheet } from 'react-native';
-import FlashMessage from 'react-native-flash-message';
+// import FlashMessage from 'react-native-flash-message';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 
 import { APIProvider } from '@/api';
@@ -21,7 +21,7 @@ const App = () => {
       <BottomSheetModalProvider>
         <APIProvider>
           <RootNavigator />
-          <FlashMessage position="top" />
+          {/* <FlashMessage position="top" /> */}
         </APIProvider>
       </BottomSheetModalProvider>
     </GestureHandlerRootView>
